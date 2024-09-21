@@ -1,0 +1,28 @@
+Classe Identidade
+
+Precisa instanciar
+Método construtor sem/ com parametros (valores iniciais dos atributos quando instancia)
+getter(pegar valor do input) e setter(atribuir valor)
+
+UML = Representacao gráfica das classes
+
+Exemplo: Data
+         dia/ mes/ ano
+         data()
+         data(dia: int, mes: int, ano: int);
+         Getter e setter;
+         getDataFormatada() (retorna uma string)
+         toString()
+
+usingData = classe executavel
+
+Encapsulamento de classe: Atributos tem que ser privados
+                          Usuario nao tem que ter acesso à classe, por isso eh privada
+                          o que o ususario pode usar usa o setter
+
+Javadoc = Documentacao do Java : " /** "
+toda classe tem como classe pai "object"
+
+.clone = clona o mesmo valor de um objeto mas ocupando lugares diferentes na memoria
+
+null pointer exeption = ainda nao criou a classe

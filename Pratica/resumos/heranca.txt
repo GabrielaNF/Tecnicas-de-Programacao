@@ -1,0 +1,41 @@
+Classe filho pegam dados deles e da classe pai (heranca) - "herda" os dados da classe pai
+Ex. class Feriado extends Data(com descricao) = vai ter dados do Feriado e da Data
+Ex. class Feriado extends Data (sem descricao) = vai pegar os dados de data 
+
+Todas as classes, incluindo as que formam a API Java, sao subclasses da classe object
+Superclasse = Acima na hierarquia
+Subclasse = "parte" da classe, pertence a classe
+             Precisa apenas implementar as diferencas entre ela e a classe pai
+
+Se um metodo eh deifinido em uma superclasse, ele eh herdade para todas as subclasses
+
+Exemplo:
+class Person { //Classe pai/super
+    protected String name;
+    protected String address;
+/**
+* Construtor padrão
+*/
+public Person(){
+    System.out.println("Inside Person:Constructor");
+    name = ""; address = "";
+    }
+}
+
+class Student extends Person {//classe filho
+public Student() {
+    System.out.println("Inside Student:Constructor");
+    }
+}
+
+//Subclasse pode chamar um construtor da superclasse imediata
+public Student() {
+    super("SomeName", "SomeAddress");
+    System.out.println("Inside Student:Constructor");
+}
+
+//super/this = se refere a membros da superclasse
+public Student() {
+    super.name = "Person name";
+    this.name = "Student name";
+}

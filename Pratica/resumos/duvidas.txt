@@ -1,0 +1,6 @@
+Como ler mais de 1 valor num mesmo JOptionPane?
+Biblioteca math()
+Como delimitar a quantidade de casas depois da virgula que serao usadas no JOptionPane
+array eh sempre string e tem q converter? Ou da pra fazer direto como tipo int?
+Funcao split separa/ converte array de string pra array de numeros?
+Note vendo sinal de multiplicao como ponteiro (ex.2 array)

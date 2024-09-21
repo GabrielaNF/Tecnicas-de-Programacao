@@ -1,0 +1,18 @@
+"Planta" de um objeto 
+Tem propriedades (atributos) e metodos (comportamentos)
+Ex. Carro: Fabricante, cor = atributos
+           Virar, frear, acelerar = comportamentos
+
+Objeto = Conjunto de atributos (propriedades) que sao as variaveis que descrevem as caracteristicas essenciais do objeto
+-> Conjunto de metodos (comportamentos) que descrevem como um objeto se comporta
+-> Eh a instancia de uma classe
+
+Classes sao reutlizaveis. Pode-se usar a mesma classe varias vezes para criar objetos
+
+METODO
+- Parte separada do codigo que pode ser chamda pelo programa principal
+- Aceita quantos argumentos precisar
+- Bom para decompor o problema, separa o em partes menores e manuseaveis
+- Para chamar metodos usa a classe:
+    nomeDoObjeto.nomeDoMetodo(argumentos)
+    char x = str1.charAt(0)//mostra o carcater que esta no indice

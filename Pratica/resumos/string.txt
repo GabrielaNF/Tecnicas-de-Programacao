@@ -1,0 +1,21 @@
+CLASSE STRING 
+Tipo primitivo
+
+== compara posicao de memoria
+equals compara valores das strings
+.toUpperCase = passa tudo pra letra Maiuscula
+charAt = pega caracter na posicao que pediu. 
+    Ex. test.charAt(0) = caracter da posicao zero
+    est.charAt(test.,length() - 1) da posicao final
+
+String part1 = test.substring(2, 5) = cria nova string com caracteres da posicao 2 ate a 5 da original
+
+test.split(" ") = separa cada parte entre esse espaco em Array
+
+String newTest = teste.replaceAll ("o", "O") = altera todos os o minusculos por maiusculos (adiciona numa nova string se nao nao altera)
+
+test.contains("World") = ve se tem World na string //letra maiuscula e minuscula sao diferentes
+test.startWith("Hello") = ve se a string comeca com hello //letra maiuscula e minuscula sao diferentes
+
+test.valueOf (usa direto no objto e nao na instancia):
+    String PIText = String.valueOf( PI ); (funciona pra qualquer tipo, boolean, char, string, int, etc)

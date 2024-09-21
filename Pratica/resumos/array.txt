@@ -1,0 +1,40 @@
+int ages [] //declarar
+ages = new int[100] //construir objetos
+
+ou
+
+int ages = new int[100]
+
+final boolean results = final, vira uma constante
+
+char = ''
+String = " "
+
+arr.length = ve o tamanho do array
+
+Para acessar elementos no array, tem que usar uma variavel auxiliar
+
+//Exemplo de codigo para ler um array
+public class ArraySample{
+    public static void main( String[] args ){
+        int[] ages = new int[100];
+        for( int i=0; i<100; i++ ){
+        System.out.print( ages[i] );
+        }
+    }
+}
+
+nomeArray.length// mede o tamanho do array 
+
+//Exemplo de imprimir um array baseado no seu tamanho
+public class ArraySample {
+    public static void main( String[] args ){
+        int[] ages = new int[100];
+        for( int i=0; i < ages.length; i++ ){
+        System.out.print( ages[i] );
+        }
+    }
+}
+
+//Arrays dentro de Arrays: 
+int[][] twoD = new int[512][128]; //array inteiro de 512 x 128 elementos

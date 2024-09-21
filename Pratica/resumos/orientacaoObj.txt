@@ -1,0 +1,35 @@
+String se comporta como tipo primitivo
+Classe = tipo primitivo (guarda as caracteristicas do objeto a ser armazenado)
+Objeto = variavel
+
+Variavel tem dados
+Classe possui dados e metodos
+
+Metodos na maioria das vezes nao altera o conteudo original, so retorna o que pediu
+Ex. toUpperCase()
+    length()
+
+Aplica metodos nos objetos
+Aplica metodos em classes so se for estatico
+
+String nome = new String();
+
+Orientacao de objetos = criar classes e reaproveitar ela por objetos
+
+Pra atribuir valor coloca dentro do metodo construtor "()"
+    Ex. texto = new String("Joao")
+
+Se nao criar/ instanciar antes nao da para criar metodo pois fica nulo e da erro
+
+Javadoc = site com docs do Java 
+
+Quando importa toda uma biblioteca no Java, nao afeta o desempenho pois so executa a parte que está usando a biblioteca
+
+== compara posicao de memoria dos objetos
+Pra comparar valor usa a funcao equals()
+
+Math classe estatica que nao precisa instanciar (metodos estaticos)
+
+
+ENCAPSULAMENTO 
+Metodo de ocultar elementos de uma classe da sua implementacao

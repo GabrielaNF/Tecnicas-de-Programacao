@@ -1,0 +1,42 @@
+Maquina Virtual Java - MVJ -> permite rodar java em qualquer forma de hardware
+nome de Classe-> primeira letra = Maiuscula
+Nome da classe = nome do arquivo
+
+-> 3 tipos de classes:
+private = so a propria classe pode ver
+protect = somente as clases pertencentes a mesma pasta pode ver
+public = qualquer classe do projeto pode ver
+
+-> parametro main:
+main (String[] args)
+
+-> tipos de prints:
+println = quebra de linha entre um print e outro(escreve e na sequencia vai pra prox linha)
+print = nao quebra linha
+printf = igual print mas pode usar parametros
+
+System.out.println("Age: " + age) = pra imprimir valor da age
+
+-> Variaveis:   byte (8 bits)
+                short (16 bits)
+                int (32 bits)
+                long (64 bits)
+                float (32 bits)
+                double (64 bits)
+                boolean
+                char
+                String
+    Primeiro cria, depois faz atribuicao:
+    int age;
+    age = 17;
+
+    *int pode ser negativo
+    *declarar long coloca L no final do numero = 7691L (força pra long)
+    *Nunca por 0 na frente dos numeros se nao considera octadecimal = 0123
+    *pra usar hexadecimal poe "0x" na frente = 0xCAFE10
+
+CASTING (Mudar de tipo): 
+    Variaveis nao podem perder informacao (int -> long pode, long -> int nao pode) (float->double pode)
+                                            (inteiro -> flutuante pode, flutuante -> inteiro nao pode)
+                                            se forcar pode, ex. int i = (int) x, sendo x um long (compila, mas pode acarretar em perda de informacao)
+

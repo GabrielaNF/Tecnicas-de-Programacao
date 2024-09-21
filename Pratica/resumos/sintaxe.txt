@@ -1,0 +1,38 @@
+Todo arquivo em Java eh uma classe (todo o conteudo fica dentro dela, que tem o mesmo nome do programa)
+
+Declaracao de classe: nome comeca sempre em maiusculo (Classe)
+Declaracao de variaveis: Comeca com letras minusculas (variavel)
+Declaracao de constantes: tudo em maiusculo (CONSTANTE)
+
+Padronizaçao Java: chaves na continuacao da frase {
+
+int sem inicializar = zero
+boolean sem inicializar = falso
+
+Comentarios: 1 linha = //
+             2 ou + = /* */
+             Documentacao HTML = /** */
+
+char = ' '
+string = " "
+
+Boolean nao aceita false ou true com letras maiusculas
+
+Casting: conversao de numeros de tipos diferentes, exemplo, de float para int
+
+++i = soma depois executa
+i++ = Executa depois soma
+
+Escopo = abrir e fechar chaves
+
+Metodo: subproramacao, funcao que no retorn nada
+Funcao: tem retorno
+
+Nao deixar codigos no static pois tudo tem q ser estatico, no maximo metodos
+
+So nao precisa importar bibliotecas do pacote Java.lang  , as outras bibliotecas precisa
+
+Unica classe do Java que se comporta igual tipo primitivo eh a string 
+
+Intereger.ParseInt = converte string pra int
+Double.ParseDouble = converte string pra Double

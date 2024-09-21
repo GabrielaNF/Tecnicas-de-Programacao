@@ -1,0 +1,30 @@
+CLASSE ABSTRATA
+    Classe/ metodo abstrato declara na classe pai, mas desenvolve ela na classe filha
+    se tem pelo menos 1 metodo abstrato, a classe tambem tem q ser abstrata
+    Tambem coloca classe como abstrata para padronizar o nome das classes filhas
+    se nao codificar classes abstratas, nem roda
+    Classe abstrata sempre sao classes pai
+    Abstrata nao "existe no mundo real" - nao da pra instanciar
+
+INTERFACE
+    Classe com 100% dos seus metodos abstratos
+    Usa para obrigar a classe pai a usar os metodos abstratos
+    Quando implementa interface tem que codificar todos os metodos
+
+POLIMORFISMO
+    Classe generica
+    Pra aceitar mais de um tipo, declara que vai receber o objeto pai
+    Qualquer objeto do tipo pai pode receber qualquer um de seus filhos
+    instanceof = descobre tipo original do objeto
+    Pra converter de pai pra filho, usa o casting
+
+ARRAYLIST
+    Array de structs
+    Dinamico (nao tem metodos de adicionar em determinada posicao (usa "add" e vai inserindo))
+    Tamanho Dinamico (vai alocando conforme da add)
+    pra usar get tem q saber o indice
+    retorna o array q armazena
+
+EXCESSOES
+    Try catch
+    Erros

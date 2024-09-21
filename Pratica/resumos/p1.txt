@@ -1,0 +1,19 @@
+Declaração de variáveis, tipos de dados e operadores, comandos condicionais e de repetição
+Comandos de entrada e saída JOptionPane e Scanner. Classe JOptionPane. Métodos showInputDialog, showMessageDialog; showConfirmDialog
+Arrays em java
+Casse math
+Classes do Java Date, Calendar, LocalDate SimpleDateFormat, DateFormat.
+OO: Encapsulamento
+Herança
+
+Atributos x metodos
+toString (transforma instancias em strings)
+this e super
+super = classe pai 
+this = metodos da propria classe
+
+Feriado extends Data (feriado = filho de Data)
+
+*tentar fazer prog com Data, perguntando pro usuario se quer adicionar mais data, analisando se eh feriado e qual eh a maior data
+
+== compara posicoes de memoria
